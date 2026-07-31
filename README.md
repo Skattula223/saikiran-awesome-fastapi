@@ -47,7 +47,6 @@
 - [SQLAlchemy Admin](https://github.com/smithyhq/sqladmin) - Admin Panel for FastAPI/Starlette that works with SQLAlchemy models.
 - [Starlette Admin](https://github.com/jowilf/starlette-admin) - Admin framework for FastAPI/Starlette, supporting SQLAlchemy, SQLModel, MongoDB, and ODMantic.
 
-
 ### Auth
 
 - [AuthX](https://github.com/yezz123/AuthX) - Customizable Authentications and Oauth2 management for FastAPI.
@@ -173,7 +172,7 @@
 - [Starlette OpenTracing](https://github.com/acidjunk/starlette-opentracing) - Opentracing support for Starlette and FastAPI.
 - [Starlette Prometheus](https://github.com/perdy/starlette-prometheus) - Prometheus integration for FastAPI and Starlette.
 - [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) - Python GraphQL library based on dataclasses.
-- [Pydantic Resolve](https://github.com/KLR-Pattern/pydantic-resolve) -  Turns pydantic class into a powerful composable computing container by introducing resolve and post-process hooks.
+- [Pydantic Resolve](https://github.com/KLR-Pattern/pydantic-resolve) - Turns pydantic class into a powerful composable computing container by introducing resolve and post-process hooks.
 
 ## Resources
 
@@ -266,7 +265,7 @@ Frameworks:
 
 - [Chalice](https://github.com/aws/chalice)
 - [Mangum](https://mangum.io/) - Adapter for running ASGI applications with AWS Lambda and API Gateway.
-- [Vercel](https://vercel.com/) - (formerly Zeit) ([example](https://github.com/Snailedlt/Markdown-Videos)).
+- [Vercel](https://vercel.com/) (formerly Zeit) ([example](https://github.com/Snailedlt/Markdown-Videos)).
 
 Compute:
 

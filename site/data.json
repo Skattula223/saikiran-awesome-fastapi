@@ -1,0 +1,1429 @@
+{
+  "sections": [
+    {
+      "id": "third-party-extensions",
+      "title": "Third-Party Extensions"
+    },
+    {
+      "id": "resources",
+      "title": "Resources"
+    },
+    {
+      "id": "hosting",
+      "title": "Hosting"
+    },
+    {
+      "id": "projects",
+      "title": "Projects"
+    }
+  ],
+  "entries": [
+    {
+      "name": "FastAPI Admin",
+      "url": "https://github.com/fastapi-admin/fastapi-admin",
+      "desc": "Functional admin panel that provides a user interface for performing CRUD operations on your data. Currently only works with the Tortoise ORM.",
+      "category": "Third-Party Extensions › Admin",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Amis Admin",
+      "url": "https://github.com/amisadmin/fastapi-amis-admin",
+      "desc": "A high-performance, efficient and easily extensible FastAPI admin framework.",
+      "category": "Third-Party Extensions › Admin",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Piccolo Admin",
+      "url": "https://github.com/piccolo-orm/piccolo_admin",
+      "desc": "A powerful and modern admin GUI, using the Piccolo ORM.",
+      "category": "Third-Party Extensions › Admin",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "SQLAlchemy Admin",
+      "url": "https://github.com/smithyhq/sqladmin",
+      "desc": "Admin Panel for FastAPI/Starlette that works with SQLAlchemy models.",
+      "category": "Third-Party Extensions › Admin",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Starlette Admin",
+      "url": "https://github.com/jowilf/starlette-admin",
+      "desc": "Admin framework for FastAPI/Starlette, supporting SQLAlchemy, SQLModel, MongoDB, and ODMantic.",
+      "category": "Third-Party Extensions › Admin",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "AuthX",
+      "url": "https://github.com/yezz123/AuthX",
+      "desc": "Customizable Authentications and Oauth2 management for FastAPI.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Auth",
+      "url": "https://github.com/dmontagu/fastapi-auth",
+      "desc": "Pluggable auth that supports the OAuth2 Password Flow with JWT access and refresh tokens.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Azure Auth",
+      "url": "https://github.com/Intility/fastapi-azure-auth",
+      "desc": "Azure AD authentication for your APIs with single and multi tenant support.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Casbin Auth",
+      "url": "https://github.com/apache/casbin-python-fastapi-casbin-auth",
+      "desc": "Authorization which supports various access control models like RBAC, ReBAC and ABAC through Casbin.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Cloud Auth",
+      "url": "https://github.com/tokusumi/fastapi-cloudauth",
+      "desc": "Simple integration between FastAPI and cloud authentication services (AWS Cognito, Auth0, Firebase Authentication).",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI JWT Auth",
+      "url": "https://github.com/IndominusByte/fastapi-jwt-auth",
+      "desc": "JWT auth (based on [Flask-JWT-Extended](https://github.com/vimalloc/flask-jwt-extended)).",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Login",
+      "url": "https://github.com/maxrdu/fastapi_login",
+      "desc": "Account management and authentication (based on [Flask-Login](https://github.com/maxcountryman/flask-login)).",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Permissions",
+      "url": "https://github.com/holgi/fastapi-permissions",
+      "desc": "Row-level permissions.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Security",
+      "url": "https://github.com/jacobsvante/fastapi-security",
+      "desc": "Implements authentication and authorization as dependencies in FastAPI.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Simple Security",
+      "url": "https://github.com/mrtolkien/fastapi_simple_security",
+      "desc": "Out-of-the-box API key security manageable through path operations.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Users",
+      "url": "https://github.com/fastapi-users/fastapi-users",
+      "desc": "Account management, authentication, authorization.",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Zitadel Auth",
+      "url": "https://github.com/cleanenergyexchange/fastapi-zitadel-auth",
+      "desc": "OAuth2 using the IAM platform [Zitadel](https://github.com/zitadel/zitadel).",
+      "category": "Third-Party Extensions › Auth",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Guard",
+      "url": "https://github.com/rennf93/fastapi-guard",
+      "desc": "Rate Limiting, Automatically Ban IPs, Penetration Attack Detection, Whitelist/blacklist (countries, IPs, Cloud Providers), User Agent Filtering, Geolocation, Redis integration for persistence, and more.",
+      "category": "Third-Party Extensions › CyberSecurity",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "secure",
+      "url": "https://github.com/TypeError/secure",
+      "desc": "Define and apply HTTP security headers consistently in FastAPI apps using ASGI middleware and a single configuration object.",
+      "category": "Third-Party Extensions › CyberSecurity",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Edgy ORM",
+      "url": "https://github.com/dymmond/edgy",
+      "desc": "Complex databases made simple.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI SQLAlchemy",
+      "url": "https://github.com/mfreeborn/fastapi-sqlalchemy",
+      "desc": "Simple integration between FastAPI and [SQLAlchemy](https://www.sqlalchemy.org/).",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Fastapi-SQLA",
+      "url": "https://github.com/dialoguemd/fastapi-sqla",
+      "desc": "SQLAlchemy extension for FastAPI with support for pagination, asyncio, and pytest.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPIwee",
+      "url": "https://github.com/Ignisor/FastAPIwee",
+      "desc": "A simple way to create REST API based on [PeeWee](https://github.com/coleifer/peewee) models.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastSQLA",
+      "url": "https://github.com/hadrien/FastSQLA",
+      "desc": "Async SQLAlchemy 2.0+ extension for FastAPI with SQLModel support, built-in pagination & more.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "GINO",
+      "url": "https://github.com/python-gino/gino",
+      "desc": "A lightweight asynchronous ORM built on top of SQLAlchemy core for Python asyncio.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Example",
+      "url": "https://github.com/leosussan/fastapi-gino-arq-uvicorn",
+      "desc": "",
+      "category": "Third-Party Extensions › Databases › ORMs › GINO",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "ORM",
+      "url": "https://github.com/encode/orm",
+      "desc": "An async ORM.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "ormar",
+      "url": "https://collerek.github.io/ormar/",
+      "desc": "Ormar is an async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Example",
+      "url": "https://collerek.github.io/ormar/latest/fastapi/",
+      "desc": "Using FastAPI with ormar.",
+      "category": "Third-Party Extensions › Databases › ORMs › ormar",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Piccolo",
+      "url": "https://github.com/piccolo-orm/piccolo",
+      "desc": "An async ORM and query builder, supporting Postgres and SQLite, with batteries (migrations, security, etc).",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Examples",
+      "url": "https://github.com/piccolo-orm/piccolo_examples",
+      "desc": "Using FastAPI with Piccolo.",
+      "category": "Third-Party Extensions › Databases › ORMs › Piccolo",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Saffier ORM",
+      "url": "https://github.com/tarsil/saffier",
+      "desc": "The only Python ORM you will ever need.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "SQLModel",
+      "url": "https://sqlmodel.tiangolo.com/",
+      "desc": "SQLModel (which is powered by Pydantic and SQLAlchemy) is a library for interacting with SQL databases from Python code, with Python objects.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Tortoise ORM",
+      "url": "https://tortoise.github.io",
+      "desc": "An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django.",
+      "category": "Third-Party Extensions › Databases › ORMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Example",
+      "url": "https://tortoise.github.io/examples/fastapi.html",
+      "desc": "An example of the Tortoise-ORM FastAPI integration.",
+      "category": "Third-Party Extensions › Databases › ORMs › Tortoise ORM",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Tutorial: Setting up Tortoise ORM with FastAPI",
+      "url": "https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/",
+      "desc": "",
+      "category": "Third-Party Extensions › Databases › ORMs › Tortoise ORM",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Aerich",
+      "url": "https://github.com/tortoise/aerich",
+      "desc": "Tortoise ORM migrations tools.",
+      "category": "Third-Party Extensions › Databases › ORMs › Tortoise ORM",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "asyncpgsa",
+      "url": "https://github.com/CanopyTax/asyncpgsa",
+      "desc": "A wrapper around [asyncpg](https://github.com/MagicStack/asyncpg) for use with [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/).",
+      "category": "Third-Party Extensions › Databases › Query Builders",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Databases",
+      "url": "https://github.com/encode/databases",
+      "desc": "Async SQL query builder that works on top of the [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) expression language.",
+      "category": "Third-Party Extensions › Databases › Query Builders",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "PyPika",
+      "url": "https://github.com/kayak/pypika",
+      "desc": "A SQL query builder that exposes the full richness of the SQL language.",
+      "category": "Third-Party Extensions › Databases › Query Builders",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Beanie",
+      "url": "https://github.com/BeanieODM/beanie",
+      "desc": "Asynchronous Python ODM for MongoDB, based on [Motor](https://motor.readthedocs.io/en/stable/) and [Pydantic](https://pydantic.dev/docs/), which supports data and schema migrations out of the box.",
+      "category": "Third-Party Extensions › Databases › ODMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "MongoEngine",
+      "url": "https://github.com/MongoEngine/mongoengine",
+      "desc": "A Document-Object Mapper (think ORM, but for document databases) for working with MongoDB from Python.",
+      "category": "Third-Party Extensions › Databases › ODMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Motor",
+      "url": "https://motor.readthedocs.io/",
+      "desc": "Asynchronous Python driver for MongoDB.",
+      "category": "Third-Party Extensions › Databases › ODMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "ODMantic",
+      "url": "https://art049.github.io/odmantic/",
+      "desc": "AsyncIO MongoDB ODM integrated with [Pydantic](https://pydantic.dev/docs/).",
+      "category": "Third-Party Extensions › Databases › ODMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "PynamoDB",
+      "url": "https://github.com/pynamodb/PynamoDB",
+      "desc": "A pythonic interface to Amazon's DynamoDB.",
+      "category": "Third-Party Extensions › Databases › ODMs",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI-CamelCase",
+      "url": "https://nf1s.github.io/fastapi-camelcase/",
+      "desc": "CamelCase JSON support for FastAPI utilizing [Pydantic](https://pydantic.dev/docs/).",
+      "category": "Third-Party Extensions › Databases › Other Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "CamelCase Models with FastAPI and Pydantic",
+      "url": "https://medium.com/analytics-vidhya/camel-case-models-with-fast-api-and-pydantic-5a8acb6c0eee",
+      "desc": "Accompanying blog post from the author of the extension.",
+      "category": "Third-Party Extensions › Databases › Other Tools › FastAPI-CamelCase",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Pydantic-SQLAlchemy",
+      "url": "https://github.com/tiangolo/pydantic-sqlalchemy",
+      "desc": "Convert SQLAlchemy models to [Pydantic](https://pydantic.dev/docs/) models.",
+      "category": "Third-Party Extensions › Databases › Other Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Dishka",
+      "url": "https://github.com/reagento/dishka",
+      "desc": "Dependency injection framework with scopes, finalization, and modular providers, with a built-in FastAPI integration.",
+      "category": "Third-Party Extensions › Dependency Injection",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "modern-di",
+      "url": "https://github.com/modern-python/modern-di",
+      "desc": "Dependency injection framework with IoC container and scopes, with a [FastAPI integration](https://github.com/modern-python/modern-di-fastapi).",
+      "category": "Third-Party Extensions › Dependency Injection",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Wireup",
+      "url": "https://github.com/maldoinc/wireup",
+      "desc": "Inject dependencies with zero runtime overhead in FastAPI; Share dependencies across web, cli or other interfaces.",
+      "category": "Third-Party Extensions › Dependency Injection",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Code Generator",
+      "url": "https://github.com/koxudaxi/fastapi-code-generator",
+      "desc": "Create a FastAPI app from an OpenAPI file, enabling schema-driven development.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Client Generator",
+      "url": "https://github.com/dmontagu/fastapi_client",
+      "desc": "Generate a mypy- and IDE-friendly API client from an OpenAPI spec.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Cruddy Framework",
+      "url": "https://github.com/mdconaway/fastapi-cruddy-framework",
+      "desc": "A companion library to FastAPI designed to bring the development productivity of Ruby on Rails, Ember.js or Sails.js to the FastAPI ecosystem.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI-MCP",
+      "url": "https://github.com/tadata-org/fastapi_mcp",
+      "desc": "Expose FastAPI endpoints as Model Context Protocol (MCP) tools, preserving schemas and docs, with built-in OAuth 2.1 auth support.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI MVC",
+      "url": "https://github.com/fastapi-mvc/fastapi-mvc",
+      "desc": "Developer productivity tool for making high-quality FastAPI production-ready APIs.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Profiler",
+      "url": "https://github.com/sunhailin-Leo/fastapi_profiler",
+      "desc": "A FastAPI Middleware of joerick/pyinstrument to check your service performance.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Versioning",
+      "url": "https://github.com/DeanWay/fastapi-versioning",
+      "desc": "API versioning.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Jupyter Notebook REST API",
+      "url": "https://github.com/Invictify/Jupter-Notebook-REST-API",
+      "desc": "Run your Jupyter notebooks as RESTful API endpoints.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Manage FastAPI",
+      "url": "https://github.com/ycd/manage-fastapi",
+      "desc": "CLI tool for generating and managing FastAPI projects.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "msgpack-asgi",
+      "url": "https://github.com/florimondmanca/msgpack-asgi",
+      "desc": "Automatic [MessagePack](https://msgpack.org/) content negotiation.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "python-cqrs",
+      "url": "https://github.com/pypatterns/python-cqrs",
+      "desc": "Event-Driven Architecture Framework with CQRS, Transaction Outbox, Saga orchestration, seamless FastAPI/FastStream integration.",
+      "category": "Third-Party Extensions › Developer Tools",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Mail",
+      "url": "https://github.com/sabuhish/fastapi-mail",
+      "desc": "Lightweight mail system for sending emails and attachments (individual and bulk).",
+      "category": "Third-Party Extensions › Email",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Apitally",
+      "url": "https://github.com/apitally/apitally-py",
+      "desc": "API analytics, monitoring, and request logging for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "ASGI Correlation ID",
+      "url": "https://github.com/snok/asgi-correlation-id",
+      "desc": "Request ID logging middleware.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Cache",
+      "url": "https://github.com/comeuplater/fastapi_cache",
+      "desc": "A simple lightweight cache system.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Cache",
+      "url": "https://github.com/long2ice/fastapi-cache",
+      "desc": "A tool to cache FastAPI response and function results, with support for Redis, Memcached, DynamoDB, and in-memory backends.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Chameleon",
+      "url": "https://github.com/mikeckennedy/fastapi-chameleon",
+      "desc": "Adds integration of the Chameleon template language to FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI CloudEvents",
+      "url": "https://github.com/sasha-tkachev/fastapi-cloudevents",
+      "desc": "[CloudEvents](https://cloudevents.io/) integration for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Contrib",
+      "url": "https://github.com/identixone/fastapi_contrib",
+      "desc": "Opinionated set of utilities: pagination, auth middleware, permissions, custom exception handlers, MongoDB support, and Opentracing middleware.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Events",
+      "url": "https://github.com/melvinkcx/fastapi-events",
+      "desc": "Asynchronous event dispatching/handling library for FastAPI and Starlette.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI FastCRUD",
+      "url": "https://github.com/benavlabs/fastcrud",
+      "desc": "Robust async CRUD operations and flexible endpoint creation utilities.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI FeatureFlags",
+      "url": "https://github.com/Pytlicek/fastapi-featureflags",
+      "desc": "Simple implementation of feature flags for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Injectable",
+      "url": "https://github.com/JasperSui/fastapi-injectable",
+      "desc": "Use FastAPI's dependency injection outside route handlers in CLI tools, background tasks, workers, and more.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Jinja",
+      "url": "https://github.com/AGeekInside/fastapi-jinja",
+      "desc": "Adds integration of the Jinja template language to FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Lazy",
+      "url": "https://github.com/yezz123/fastango",
+      "desc": "Lazy package to start your project using FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Limiter",
+      "url": "https://github.com/long2ice/fastapi-limiter",
+      "desc": "A request rate limiter for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Listing",
+      "url": "https://github.com/danielhasan1/fastapi-listing",
+      "desc": "A library to design/build listing APIs using component-based architecture, inbuilt query paginator, sorter, django-admin like filters & much more.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI MQTT",
+      "url": "https://github.com/sabuhish/fastapi-mqtt",
+      "desc": "An extension for the MQTT protocol.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Opentracing",
+      "url": "https://github.com/wesdu/fastapi-opentracing",
+      "desc": "Opentracing middleware and database tracing support for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Pagination",
+      "url": "https://github.com/uriyyo/fastapi-pagination",
+      "desc": "Pagination for FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Plugins",
+      "url": "https://github.com/madkote/fastapi-plugins",
+      "desc": "Redis and Scheduler plugins.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI ServiceUtils",
+      "url": "https://github.com/skallfass/fastapi_serviceutils",
+      "desc": "Generator for creating API services.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Shield",
+      "url": "https://github.com/jymchng/fastapi-shield",
+      "desc": "General FastAPI library for writing any generic endpoint decorators capable of lazy dependencies injection.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI SocketIO",
+      "url": "https://github.com/pyropy/fastapi-socketio",
+      "desc": "Easy integration for FastAPI and SocketIO.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Utilities",
+      "url": "https://github.com/fastapiutils/fastapi-utils",
+      "desc": "Reusable utilities: class-based views, response inferring router, periodic tasks, timing middleware, SQLAlchemy session, OpenAPI spec simplification.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Viewsets",
+      "url": "https://github.com/svalench/fastapi_viewsets",
+      "desc": "Django REST Framework-inspired ViewSets for FastAPI, enabling class-based CRUD endpoint organization with automatic route registration.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Websocket Pub/Sub",
+      "url": "https://github.com/authorizon/fastapi_websocket_pubsub",
+      "desc": "The classic pub/sub pattern made easily accessible and scalable over the web and across your cloud in realtime.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastAPI Websocket RPC",
+      "url": "https://github.com/authorizon/fastapi_websocket_rpc",
+      "desc": "RPC (bidirectional JSON RPC) over Websockets made easy, robust, and production ready.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "FastStream",
+      "url": "https://github.com/ag2ai/faststream",
+      "desc": "Async framework for event-driven apps with Kafka, RabbitMQ, NATS, and Redis brokers; mounts as a router inside a FastAPI app via `StreamRouter`.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "OpenTelemetry FastAPI Instrumentation",
+      "url": "https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-fastapi",
+      "desc": "Library provides automatic and manual instrumentation of FastAPI web frameworks, instrumenting http requests served by applications utilizing the framework.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Prerender Python Starlette",
+      "url": "https://github.com/BeeMyDesk/prerender-python-starlette",
+      "desc": "Starlette middleware for Prerender.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Prometheus FastAPI Instrumentator",
+      "url": "https://github.com/trallnag/prometheus-fastapi-instrumentator",
+      "desc": "A configurable and modular Prometheus Instrumentator for your FastAPI application.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "SlowApi",
+      "url": "https://github.com/laurents/slowapi",
+      "desc": "Rate limiter (based on [Flask-Limiter](https://flask-limiter.readthedocs.io)).",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Starlette Context",
+      "url": "https://github.com/tomwojcik/starlette-context",
+      "desc": "Allows you to store and access the request data anywhere in your project, useful for logging.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Starlette Exporter",
+      "url": "https://github.com/stephenhillier/starlette_exporter",
+      "desc": "One more prometheus integration for FastAPI and Starlette.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Starlette OpenTracing",
+      "url": "https://github.com/acidjunk/starlette-opentracing",
+      "desc": "Opentracing support for Starlette and FastAPI.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Starlette Prometheus",
+      "url": "https://github.com/perdy/starlette-prometheus",
+      "desc": "Prometheus integration for FastAPI and Starlette.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Strawberry GraphQL",
+      "url": "https://github.com/strawberry-graphql/strawberry",
+      "desc": "Python GraphQL library based on dataclasses.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Pydantic Resolve",
+      "url": "https://github.com/KLR-Pattern/pydantic-resolve",
+      "desc": "Turns pydantic class into a powerful composable computing container by introducing resolve and post-process hooks.",
+      "category": "Third-Party Extensions › Utils",
+      "sectionId": "third-party-extensions"
+    },
+    {
+      "name": "Documentation",
+      "url": "https://fastapi.tiangolo.com/",
+      "desc": "Comprehensive documentation.",
+      "category": "Resources › Official Resources",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Tutorial",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "desc": "Official tutorial showing you how to use FastAPI with most of its features, step by step.",
+      "category": "Resources › Official Resources",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Source Code",
+      "url": "https://github.com/fastapi/fastapi",
+      "desc": "Hosted on GitHub.",
+      "category": "Resources › Official Resources",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/invite/VQjSZaeJmf",
+      "desc": "Chat with other FastAPI users.",
+      "category": "Resources › Official Resources",
+      "sectionId": "resources"
+    },
+    {
+      "name": "TestDriven.io FastAPI",
+      "url": "https://testdriven.io/blog/topics/fastapi/",
+      "desc": "Multiple FastAPI-specific articles that focus on developing and testing production-ready RESTful APIs, serving up machine learning models, and more.",
+      "category": "Resources › External Resources",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Build The Next Generation Of Python Web Applications With FastAPI",
+      "url": "https://www.pythonpodcast.com/fastapi-web-application-framework-episode-259/",
+      "desc": "In this episode of [Podcast Init](https://www.pythonpodcast.com/), the creator of FastAPI, [Sebastián Ramirez](https://tiangolo.com/), shares his motivations for building FastAPI and how it works under the hood.",
+      "category": "Resources › Podcasts",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI on PythonBytes",
+      "url": "https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855",
+      "desc": "Nice overview of the project.",
+      "category": "Resources › Podcasts",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI has Ruined Flask Forever for Me",
+      "url": "https://medium.com/data-science/fastapi-has-ruined-flask-forever-for-me-73916127da",
+      "desc": "",
+      "category": "Resources › Articles",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Why we switched from Flask to FastAPI for production machine learning",
+      "url": "https://medium.com/@calebkaiser/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679",
+      "desc": "In-depth look at why you may want to move from Flask to FastAPI.",
+      "category": "Resources › Articles",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Async SQLAlchemy with FastAPI",
+      "url": "https://stribny.name/posts/fastapi-asyncalchemy/",
+      "desc": "Learn how to use SQLAlchemy asynchronously.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Deploy Machine Learning Models with Keras, FastAPI, Redis and Docker",
+      "url": "https://medium.com/analytics-vidhya/deploy-machine-learning-models-with-keras-fastapi-redis-and-docker-4940df614ece",
+      "desc": "",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Developing and Testing an Asynchronous API with FastAPI and Pytest",
+      "url": "https://testdriven.io/blog/fastapi-crud/",
+      "desc": "Develop and test an asynchronous API with FastAPI, Postgres, Pytest, and Docker using Test-Driven Development.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI for Flask Users",
+      "url": "https://amitness.com/posts/fastapi-vs-flask",
+      "desc": "Learn FastAPI with a side-by-side code comparison to Flask.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Implementing FastAPI Services – Abstraction and Separation of Concerns",
+      "url": "https://camillovisini.com/coding/abstracting-fastapi-services",
+      "desc": "FastAPI application and service structure for a more maintainable codebase.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Introducing FARM Stack - FastAPI, React, and MongoDB",
+      "url": "https://www.mongodb.com/docs/languages/python/pymongo-driver/current/integrations/fastapi-integration/",
+      "desc": "Getting started with a complete FastAPI web application stack.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Multitenancy with FastAPI, SQLAlchemy and PostgreSQL",
+      "url": "https://mergeboard.com/blog/6-multitenancy-fastapi-sqlalchemy-postgresql/",
+      "desc": "Learn how to make FastAPI applications multi-tenant ready.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Real-time data streaming using FastAPI and WebSockets",
+      "url": "https://stribny.name/posts/real-time-data-streaming-using-fastapi-and-websockets/",
+      "desc": "Learn how to stream data from FastAPI directly into a real-time chart.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Running FastAPI applications in production",
+      "url": "https://stribny.name/posts/fastapi-production/",
+      "desc": "Use Gunicorn with systemd for production deployments.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Serving Machine Learning Models with FastAPI in Python",
+      "url": "https://medium.com/@8B_EC/tutorial-serving-machine-learning-models-with-fastapi-in-python-c1a27319c459",
+      "desc": "Use FastAPI to quickly and easily deploy and serve machine learning models in Python as a RESTful API.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Streaming video with FastAPI",
+      "url": "https://stribny.name/posts/fastapi-video/",
+      "desc": "Learn how to serve video streams.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Using Hypothesis and Schemathesis to Test FastAPI",
+      "url": "https://testdriven.io/blog/fastapi-hypothesis/",
+      "desc": "Apply property-based testing to FastAPI.",
+      "category": "Resources › Tutorials",
+      "sectionId": "resources"
+    },
+    {
+      "name": "PyConBY 2020: Serve ML models easily with FastAPI",
+      "url": "https://www.youtube.com/watch?v=z9K5pwb0rt8",
+      "desc": "From the talk by Sebastian Ramirez you will learn how to easily build a production-ready web (JSON) API for your ML models with FastAPI, including best practices by default.",
+      "category": "Resources › Talks",
+      "sectionId": "resources"
+    },
+    {
+      "name": "PyCon UK 2019: FastAPI from the ground up",
+      "url": "https://www.youtube.com/watch?v=3DLwPcrE5mA",
+      "desc": "This talk shows how to build a simple REST API for a database from the ground up using FastAPI.",
+      "category": "Resources › Talks",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Building a Stock Screener with FastAPI",
+      "url": "https://www.youtube.com/watch?v=5GorMC2lPpk",
+      "desc": "A you build a web-based stock screener with FastAPI, you'll be introduced to many of FastAPI's features, including Pydantic models, dependency injection, background tasks, and SQLAlchemy integration.",
+      "category": "Resources › Videos",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Building Web APIs Using FastAPI",
+      "url": "https://www.youtube.com/watch?v=Pe66M8mn-wA",
+      "desc": "Use FastAPI to build a web application programming interface (RESTful API).",
+      "category": "Resources › Videos",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI - A Web Framework for Python",
+      "url": "https://www.youtube.com/watch?v=PUhio8CprhI&list=PL5gdMNl42qynpY-o43Jk3evfxEKSts3HS",
+      "desc": "See how to do numeric validations with FastAPI.",
+      "category": "Resources › Videos",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI vs. Django vs. Flask",
+      "url": "https://www.youtube.com/watch?v=9YBAOYQOzWs",
+      "desc": "Which framework is best for Python in 2020? Which uses async/await the best? Which is the fastest?",
+      "category": "Resources › Videos",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Serving Machine Learning Models As API with FastAPI",
+      "url": "https://www.youtube.com/watch?v=mkDxuRvKUL8",
+      "desc": "Build a machine learning API with FastAPI.",
+      "category": "Resources › Videos",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Test-Driven Development with FastAPI and Docker",
+      "url": "https://testdriven.io/courses/tdd-fastapi/",
+      "desc": "Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI, and Docker.",
+      "category": "Resources › Courses",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Modern APIs with FastAPI and Python",
+      "url": "https://training.talkpython.fm/courses/modern-fastapi-apis",
+      "desc": "A course designed to get you creating new APIs running in the cloud with FastAPI quickly.",
+      "category": "Resources › Courses",
+      "sectionId": "resources"
+    },
+    {
+      "name": "Full Web Apps with FastAPI Course",
+      "url": "https://training.talkpython.fm/courses/full-html-web-applications-with-fastapi",
+      "desc": "You'll learn to build full web apps with FastAPI, equivalent to what you can do with Flask or Django.",
+      "category": "Resources › Courses",
+      "sectionId": "resources"
+    },
+    {
+      "name": "The Definitive Guide to Celery and FastAPI",
+      "url": "https://testdriven.io/courses/fastapi-celery/",
+      "desc": "Learn how to add Celery to a FastAPI application to provide asynchronous task processing.",
+      "category": "Resources › Courses",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI Best Practices",
+      "url": "https://github.com/zhanymkanov/fastapi-best-practices",
+      "desc": "Collection of best practices in a GitHub repo.",
+      "category": "Resources › Best Practices",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI Clean Example",
+      "url": "https://github.com/ivan-borovets/fastapi-clean-example",
+      "desc": "Clean Architecture backend example built with FastAPI.",
+      "category": "Resources › Best Practices",
+      "sectionId": "resources"
+    },
+    {
+      "name": "FastAPI-Dishka-FastStream",
+      "url": "https://github.com/faststream-community/fastapi-dishka-faststream",
+      "desc": "Combines FastAPI, dishka, faststream, sqlalchemy, pydantic.",
+      "category": "Resources › Best Practices",
+      "sectionId": "resources"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "url": "https://aws.amazon.com/elasticbeanstalk/",
+      "desc": "",
+      "category": "Hosting › PaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Fly",
+      "url": "https://fly.io",
+      "desc": "([tutorial](https://fly.io/docs/python/frameworks/fastapi/), [Deploy from a Git repo](https://github.com/fly-apps/hello-fastapi))",
+      "category": "Hosting › PaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Google App Engine",
+      "url": "https://cloud.google.com/appengine",
+      "desc": "",
+      "category": "Hosting › PaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Heroku",
+      "url": "https://www.heroku.com/",
+      "desc": "([Step-by-step tutorial](https://tutlinks.com/create-and-deploy-fastapi-app-to-heroku/), [ML model on Heroku tutorial](https://testdriven.io/blog/fastapi-machine-learning/))",
+      "category": "Hosting › PaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Microsoft Azure App Service",
+      "url": "https://azure.microsoft.com/en-us/products/app-service/",
+      "desc": "",
+      "category": "Hosting › PaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "AWS EC2",
+      "url": "https://aws.amazon.com/ec2/",
+      "desc": "",
+      "category": "Hosting › IaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Digital Ocean",
+      "url": "https://www.digitalocean.com/",
+      "desc": "",
+      "category": "Hosting › IaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Google Compute Engine",
+      "url": "https://cloud.google.com/compute",
+      "desc": "",
+      "category": "Hosting › IaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Linode",
+      "url": "https://www.linode.com/",
+      "desc": "",
+      "category": "Hosting › IaaS",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Chalice",
+      "url": "https://github.com/aws/chalice",
+      "desc": "",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Mangum",
+      "url": "https://mangum.io/",
+      "desc": "Adapter for running ASGI applications with AWS Lambda and API Gateway.",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "desc": "(formerly Zeit) ([example](https://github.com/Snailedlt/Markdown-Videos)).",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "AWS Lambda",
+      "url": "https://aws.amazon.com/lambda/",
+      "desc": "([example](https://github.com/iwpnd/fastapi-aws-lambda-example))",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Azure Functions",
+      "url": "https://azure.microsoft.com/en-us/products/functions/",
+      "desc": "",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Google Cloud Functions",
+      "url": "https://cloud.google.com/functions",
+      "desc": "",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Google Cloud Run",
+      "url": "https://cloud.google.com/run",
+      "desc": "([example](https://github.com/anthonycorletti/cloudrun-fastapi))",
+      "category": "Hosting › Serverless",
+      "sectionId": "hosting"
+    },
+    {
+      "name": "Full Stack FastAPI and PostgreSQL - Base Project Generator",
+      "url": "https://github.com/fastapi/full-stack-fastapi-template",
+      "desc": "Full Stack FastAPI Template, which includes FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS, and more (developed by the creator of FastAPI, [Sebastián Ramírez](https://github.com/tiangolo)).",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI and Tortoise ORM",
+      "url": "https://github.com/prostomarkeloff/fastapi-tortoise",
+      "desc": "Powerful but simple template for web APIs w/ FastAPI (as web framework) and Tortoise-ORM (for working via database without headache).",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI + SQLAlchemy 2 + PostgreSQL Template",
+      "url": "https://github.com/modern-python/fastapi-sqlalchemy-template",
+      "desc": "Dockerized starter with dependency injection (modern-di), Alembic migrations, and a justfile workflow.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI Model Server Skeleton",
+      "url": "https://github.com/eightBEC/fastapi-ml-skeleton",
+      "desc": "Skeleton app to serve machine learning models production-ready.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "cookiecutter-spacy-fastapi",
+      "url": "https://github.com/microsoft/cookiecutter-spacy-fastapi",
+      "desc": "Quick deployments of spaCy models with FastAPI.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "cookiecutter-fastapi",
+      "url": "https://github.com/arthurhenrique/cookiecutter-fastapi",
+      "desc": "Cookiecutter template for FastAPI projects using: Machine Learning, Poetry, Azure Pipelines and pytest.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "openapi-python-client",
+      "url": "https://github.com/openapi-generators/openapi-python-client",
+      "desc": "Generate modern FastAPI Python clients (via FastAPI) from OpenAPI.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Pywork",
+      "url": "https://github.com/vutran1710/YeomanPywork",
+      "desc": "[Yeoman](https://yeoman.io/) generator to scaffold a FastAPI app.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "fastapi-gino-arq-uvicorn",
+      "url": "https://github.com/leosussan/fastapi-gino-arq-uvicorn",
+      "desc": "Template for a high-performance async REST API, in Python. FastAPI + GINO + Arq + Uvicorn (w/ Redis and PostgreSQL).",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI and React Template",
+      "url": "https://github.com/Buuntu/fastapi-react",
+      "desc": "Full stack cookiecutter boilerplate using FastAPI, TypeScript, Docker, PostgreSQL, and React.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI Nano",
+      "url": "https://github.com/rednafi/fastapi-nano",
+      "desc": "Simple FastAPI template with factory pattern architecture.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI template",
+      "url": "https://github.com/s3rius/FastAPI-template",
+      "desc": "Flexible, lightweight FastAPI project generator. It includes support for SQLAlchemy, multiple databases, CI/CD, Docker, and Kubernetes.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI on Google Cloud Run",
+      "url": "https://github.com/anthonycorletti/cloudrun-fastapi",
+      "desc": "Boilerplate for API building with FastAPI, SQLModel, and Google Cloud Run.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI with Firestore",
+      "url": "https://github.com/anthonycorletti/firestore-fastapi",
+      "desc": "Boilerplate for API building with FastAPI and Google Cloud Firestore.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "fastapi-alembic-sqlmodel-async",
+      "url": "https://github.com/vargasjona/fastapi-alembic-sqlmodel-async",
+      "desc": "This is a project template which uses FastAPI, Alembic, and async SQLModel as ORM.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "fastapi-starter-project",
+      "url": "https://github.com/mirzadelic/fastapi-starter-project",
+      "desc": "A project template which uses FastAPI, SQLModel, Alembic, Pytest, Docker, GitHub Actions CI.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Full Stack FastAPI and MongoDB - Base Project Generator",
+      "url": "https://github.com/mongodb-labs/full-stack-fastapi-mongodb",
+      "desc": "Full stack, modern web application generator, which includes FastAPI, MongoDB, Docker, Celery, React frontend, automatic HTTPS and more.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Uvicorn Poetry FastAPI Project Template",
+      "url": "https://github.com/max-pfeiffer/uvicorn-poetry-fastapi-project-template",
+      "desc": "Cookiecutter project template for starting a FastAPI application. Runs in a Docker container with Uvicorn ASGI server on Kubernetes. Supports AMD64 and ARM64 CPU architectures.",
+      "category": "Projects › Boilerplate",
+      "sectionId": "projects"
+    },
+    {
+      "name": "inboard",
+      "url": "https://github.com/br3ndonland/inboard",
+      "desc": "Docker images to power your FastAPI apps and help you ship faster.",
+      "category": "Projects › Docker Images",
+      "sectionId": "projects"
+    },
+    {
+      "name": "uvicorn-gunicorn-fastapi-docker",
+      "url": "https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker",
+      "desc": "Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python 3.7 and 3.6 with performance auto-tuning.",
+      "category": "Projects › Docker Images",
+      "sectionId": "projects"
+    },
+    {
+      "name": "uvicorn-gunicorn-poetry",
+      "url": "https://github.com/max-pfeiffer/uvicorn-gunicorn-poetry",
+      "desc": "Docker image with Gunicorn using Uvicorn workers for running Python web applications. Uses Poetry for managing dependencies and setting up a virtual environment. Supports AMD64 and ARM64 CPU architectures.",
+      "category": "Projects › Docker Images",
+      "sectionId": "projects"
+    },
+    {
+      "name": "uvicorn-poetry",
+      "url": "https://github.com/max-pfeiffer/uvicorn-poetry",
+      "desc": "Docker image with Uvicorn ASGI server for running Python web applications on Kubernetes. Uses Poetry for managing dependencies and setting up a virtual environment. Supports AMD64 and ARM64 CPU architectures.",
+      "category": "Projects › Docker Images",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Astrobase",
+      "url": "https://github.com/anthonycorletti/astrobase",
+      "desc": "Simple, fast, and secure deployments anywhere.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Awesome FastAPI Projects",
+      "url": "https://github.com/Kludex/awesome-fastapi-projects",
+      "desc": "Organized list of projects that use FastAPI.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Bali",
+      "url": "https://github.com/bali-framework/bali",
+      "desc": "Simplify Cloud Native Microservices development base on FastAPI and gRPC.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Bitcart",
+      "url": "https://github.com/bitcart/bitcart",
+      "desc": "Platform for merchants, users and developers which offers easy setup and use.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Bunnybook",
+      "url": "https://github.com/pietrobassi/bunnybook",
+      "desc": "A tiny social network built with FastAPI, React+RxJs, Neo4j, PostgreSQL, and Redis.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Coronavirus-tg-api",
+      "url": "https://github.com/egbakou/coronavirus-tg-api",
+      "desc": "API for tracking the global coronavirus (COVID-19, SARS-CoV-2) outbreak.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Dispatch",
+      "url": "https://github.com/Netflix/dispatch",
+      "desc": "Manage security incidents.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Async flavor",
+      "url": "https://github.com/testdrivenio/fastapi-crud-async",
+      "desc": "",
+      "category": "Projects › Open Source Projects › FastAPI CRUD Example",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Sync Flavor",
+      "url": "https://github.com/testdrivenio/fastapi-crud-sync",
+      "desc": "",
+      "category": "Projects › Open Source Projects › FastAPI CRUD Example",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI with Observability",
+      "url": "https://github.com/Blueswen/fastapi-observability",
+      "desc": "Observe FastAPI app with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI Websocket Broadcast",
+      "url": "https://github.com/kthwaite/fastapi-websocket-broadcast",
+      "desc": "Websocket 'broadcast' demo.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FastAPI with Celery, RabbitMQ, and Redis",
+      "url": "https://github.com/GregaVrbancic/fastapi-celery",
+      "desc": "Minimal example utilizing FastAPI and Celery with RabbitMQ for task queue, Redis for Celery backend, and Flower for monitoring the Celery tasks.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "FuturamaAPI",
+      "url": "https://github.com/koldakov/futuramaapi",
+      "desc": "A REST and GraphQL playground built with best practices, providing WebSockets, SSE, callbacks, secret messages, and more.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "JeffQL",
+      "url": "https://github.com/yezz123/JeffQL/",
+      "desc": "Simple authentication and login API using GraphQL and JWT.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "JSON-RPC Server",
+      "url": "https://github.com/smagafurov/fastapi-jsonrpc",
+      "desc": "JSON-RPC server based on FastAPI.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Mailer",
+      "url": "https://github.com/rclement/mailer",
+      "desc": "Dead-simple mailer micro-service for static websites.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Markdown-Videos",
+      "url": "https://github.com/Snailedlt/Markdown-Videos",
+      "desc": "API for generating thumbnails to embed into your markdown content.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Nemo",
+      "url": "https://github.com/harshitsinghai77/nemo-backend",
+      "desc": "Be productive with Nemo.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "OPAL (Open Policy Administration Layer)",
+      "url": "https://github.com/authorizon/opal",
+      "desc": "Real-time authorization updates on top of Open-Policy; built with FastAPI, Typer, and FastAPI WebSocket pub/sub.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "OSBot-Fast-API",
+      "url": "https://github.com/owasp-sbot/OSBot-Fast-API",
+      "desc": "Type-safe FastAPI wrapper that provides middleware, HTTP event tracking, AWS Lambda integration, test utilities, and auto-conversion between Type_Safe, Pydantic, and dataclasses.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Polar",
+      "url": "https://github.com/polarsource/polar",
+      "desc": "A funding and monetization platform for developers, built with FastAPI, SQLAlchemy, Alembic, and Arq.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "RealWorld Example App - mongo",
+      "url": "https://github.com/markqiu/fastapi-mongodb-realworld-example-app",
+      "desc": "",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "RealWorld Example App - postgres",
+      "url": "https://github.com/nsidnev/fastapi-realworld-example-app",
+      "desc": "",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "redis-streams-fastapi-chat",
+      "url": "https://github.com/leonh/redis-streams-fastapi-chat",
+      "desc": "A simple Redis Streams backed chat app using Websockets, Asyncio and FastAPI/Starlette.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Slackers",
+      "url": "https://github.com/uhavin/slackers",
+      "desc": "Slack webhooks API.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Sprites as a service",
+      "url": "https://github.com/ljvmiranda921/sprites-as-a-service",
+      "desc": "Generate your personal 8-bit avatars using Cellular Automata.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "TermPair",
+      "url": "https://github.com/cs01/termpair",
+      "desc": "View and control terminals from your browser with end-to-end encryption.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    },
+    {
+      "name": "Universities",
+      "url": "https://github.com/ycd/universities",
+      "desc": "API service for obtaining information about +9600 universities worldwide.",
+      "category": "Projects › Open Source Projects",
+      "sectionId": "projects"
+    }
+  ]
+}
