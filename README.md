@@ -51,7 +51,7 @@
 
 - [AuthX](https://github.com/yezz123/AuthX) - Customizable Authentications and Oauth2 management for FastAPI.
 - [FastAPI Auth](https://github.com/dmontagu/fastapi-auth) - Pluggable auth that supports the OAuth2 Password Flow with JWT access and refresh tokens.
-- [FastAPI Azure Auth](https://github.com/Intility/fastapi-azure-auth) - Azure AD authentication for your APIs with single and multi tenant support.
+- [FastAPI Azure Auth](https://github.com/vibber-ai/fastapi-azure-auth) - Azure AD authentication for your APIs with single and multi tenant support.
 - [FastAPI Casbin Auth](https://github.com/apache/casbin-python-fastapi-casbin-auth) - Authorization which supports various access control models like RBAC, ReBAC and ABAC through Casbin.
 - [FastAPI Cloud Auth](https://github.com/tokusumi/fastapi-cloudauth) - Simple integration between FastAPI and cloud authentication services (AWS Cognito, Auth0, Firebase Authentication).
 - [FastAPI JWT Auth](https://github.com/IndominusByte/fastapi-jwt-auth) - JWT auth (based on [Flask-JWT-Extended](https://github.com/vimalloc/flask-jwt-extended)).
@@ -79,12 +79,12 @@
 - [GINO](https://github.com/python-gino/gino) - A lightweight asynchronous ORM built on top of SQLAlchemy core for Python asyncio.
   - [FastAPI Example](https://github.com/leosussan/fastapi-gino-arq-uvicorn)
 - [ORM](https://github.com/encode/orm) - An async ORM.
-- [ormar](https://collerek.github.io/ormar/) - Ormar is an async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
+- [ormar](https://collerek.github.io/ormar/) - An async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses, leaving you with only one set of models to maintain. Alembic migrations included.
   - [FastAPI Example](https://collerek.github.io/ormar/latest/fastapi/) - Using FastAPI with ormar.
 - [Piccolo](https://github.com/piccolo-orm/piccolo) - An async ORM and query builder, supporting Postgres and SQLite, with batteries (migrations, security, etc).
   - [FastAPI Examples](https://github.com/piccolo-orm/piccolo_examples) - Using FastAPI with Piccolo.
 - [Saffier ORM](https://github.com/tarsil/saffier) - The only Python ORM you will ever need.
-- [SQLModel](https://sqlmodel.tiangolo.com/) - SQLModel (which is powered by Pydantic and SQLAlchemy) is a library for interacting with SQL databases from Python code, with Python objects.
+- [SQLModel](https://sqlmodel.tiangolo.com/) - Powered by Pydantic and SQLAlchemy; a library for interacting with SQL databases from Python code, using Python objects.
 - [Tortoise ORM](https://tortoise.github.io) - An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django.
   - [FastAPI Example](https://tortoise.github.io/examples/fastapi.html) - An example of the Tortoise-ORM FastAPI integration.
   - [Tutorial: Setting up Tortoise ORM with FastAPI](https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/)
@@ -265,7 +265,7 @@ Frameworks:
 
 - [Chalice](https://github.com/aws/chalice)
 - [Mangum](https://mangum.io/) - Adapter for running ASGI applications with AWS Lambda and API Gateway.
-- [Vercel](https://vercel.com/) (formerly Zeit) ([example](https://github.com/Snailedlt/Markdown-Videos)).
+- [Vercel](https://vercel.com/) - (formerly Zeit) ([example](https://github.com/Snailedlt/Markdown-Videos)).
 
 Compute:
 
@@ -321,7 +321,7 @@ Compute:
 - [FastAPI with Celery, RabbitMQ, and Redis](https://github.com/GregaVrbancic/fastapi-celery) - Minimal example utilizing FastAPI and Celery with RabbitMQ for task queue, Redis for Celery backend, and Flower for monitoring the Celery tasks.
 - [FuturamaAPI](https://github.com/koldakov/futuramaapi) - A REST and GraphQL playground built with best practices, providing WebSockets, SSE, callbacks, secret messages, and more.
 - [JeffQL](https://github.com/yezz123/JeffQL/) - Simple authentication and login API using GraphQL and JWT.
-- [JSON-RPC Server](https://github.com/smagafurov/fastapi-jsonrpc) - JSON-RPC server based on FastAPI.
+- [JSON-RPC Server](https://github.com/smagafurov/fastapi-jsonrpc) - Implementation of a JSON-RPC server built with FastAPI.
 - [Mailer](https://github.com/rclement/mailer) - Dead-simple mailer micro-service for static websites.
 - [Markdown-Videos](https://github.com/Snailedlt/Markdown-Videos) - API for generating thumbnails to embed into your markdown content.
 - [Nemo](https://github.com/harshitsinghai77/nemo-backend) - Be productive with Nemo.

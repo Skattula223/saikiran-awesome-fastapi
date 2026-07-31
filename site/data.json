@@ -69,7 +69,7 @@
     },
     {
       "name": "FastAPI Azure Auth",
-      "url": "https://github.com/Intility/fastapi-azure-auth",
+      "url": "https://github.com/vibber-ai/fastapi-azure-auth",
       "desc": "Azure AD authentication for your APIs with single and multi tenant support.",
       "category": "Third-Party Extensions › Auth",
       "sectionId": "third-party-extensions"
@@ -210,7 +210,7 @@
     {
       "name": "ormar",
       "url": "https://collerek.github.io/ormar/",
-      "desc": "Ormar is an async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.",
+      "desc": "An async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses, leaving you with only one set of models to maintain. Alembic migrations included.",
       "category": "Third-Party Extensions › Databases › ORMs",
       "sectionId": "third-party-extensions"
     },
@@ -245,7 +245,7 @@
     {
       "name": "SQLModel",
       "url": "https://sqlmodel.tiangolo.com/",
-      "desc": "SQLModel (which is powered by Pydantic and SQLAlchemy) is a library for interacting with SQL databases from Python code, with Python objects.",
+      "desc": "Powered by Pydantic and SQLAlchemy; a library for interacting with SQL databases from Python code, using Python objects.",
       "category": "Third-Party Extensions › Databases › ORMs",
       "sectionId": "third-party-extensions"
     },
@@ -1330,7 +1330,7 @@
     {
       "name": "JSON-RPC Server",
       "url": "https://github.com/smagafurov/fastapi-jsonrpc",
-      "desc": "JSON-RPC server based on FastAPI.",
+      "desc": "Implementation of a JSON-RPC server built with FastAPI.",
       "category": "Projects › Open Source Projects",
       "sectionId": "projects"
     },

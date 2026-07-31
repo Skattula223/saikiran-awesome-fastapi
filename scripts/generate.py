@@ -20,7 +20,7 @@ def render_item(item, indent):
     if item.get("url"):
         text = f"[{item['name']}]({item['url']})"
         if item.get("desc"):
-            sep = " " if item["desc"].startswith("(") else " - "
+            sep = " " if item.get("no_dash") else " - "
             text += f"{sep}{item['desc']}"
     else:
         text = f"{item['name']}:"

@@ -29,7 +29,7 @@
           "items": [
             {"name": "AuthX", "url": "https://github.com/yezz123/AuthX", "desc": "Customizable Authentications and Oauth2 management for FastAPI."},
             {"name": "FastAPI Auth", "url": "https://github.com/dmontagu/fastapi-auth", "desc": "Pluggable auth that supports the OAuth2 Password Flow with JWT access and refresh tokens."},
-            {"name": "FastAPI Azure Auth", "url": "https://github.com/Intility/fastapi-azure-auth", "desc": "Azure AD authentication for your APIs with single and multi tenant support."},
+            {"name": "FastAPI Azure Auth", "url": "https://github.com/vibber-ai/fastapi-azure-auth", "desc": "Azure AD authentication for your APIs with single and multi tenant support."},
             {"name": "FastAPI Casbin Auth", "url": "https://github.com/apache/casbin-python-fastapi-casbin-auth", "desc": "Authorization which supports various access control models like RBAC, ReBAC and ABAC through Casbin."},
             {"name": "FastAPI Cloud Auth", "url": "https://github.com/tokusumi/fastapi-cloudauth", "desc": "Simple integration between FastAPI and cloud authentication services (AWS Cognito, Auth0, Firebase Authentication)."},
             {"name": "FastAPI JWT Auth", "url": "https://github.com/IndominusByte/fastapi-jwt-auth", "desc": "JWT auth (based on [Flask-JWT-Extended](https://github.com/vimalloc/flask-jwt-extended))."},
@@ -66,14 +66,14 @@
                   {"name": "FastAPI Example", "url": "https://github.com/leosussan/fastapi-gino-arq-uvicorn"}
                 ]},
                 {"name": "ORM", "url": "https://github.com/encode/orm", "desc": "An async ORM."},
-                {"name": "ormar", "url": "https://collerek.github.io/ormar/", "desc": "Ormar is an async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.", "children": [
+                {"name": "ormar", "url": "https://collerek.github.io/ormar/", "desc": "An async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses, leaving you with only one set of models to maintain. Alembic migrations included.", "children": [
                   {"name": "FastAPI Example", "url": "https://collerek.github.io/ormar/latest/fastapi/", "desc": "Using FastAPI with ormar."}
                 ]},
                 {"name": "Piccolo", "url": "https://github.com/piccolo-orm/piccolo", "desc": "An async ORM and query builder, supporting Postgres and SQLite, with batteries (migrations, security, etc).", "children": [
                   {"name": "FastAPI Examples", "url": "https://github.com/piccolo-orm/piccolo_examples", "desc": "Using FastAPI with Piccolo."}
                 ]},
                 {"name": "Saffier ORM", "url": "https://github.com/tarsil/saffier", "desc": "The only Python ORM you will ever need."},
-                {"name": "SQLModel", "url": "https://sqlmodel.tiangolo.com/", "desc": "SQLModel (which is powered by Pydantic and SQLAlchemy) is a library for interacting with SQL databases from Python code, with Python objects."},
+                {"name": "SQLModel", "url": "https://sqlmodel.tiangolo.com/", "desc": "Powered by Pydantic and SQLAlchemy; a library for interacting with SQL databases from Python code, using Python objects."},
                 {"name": "Tortoise ORM", "url": "https://tortoise.github.io", "desc": "An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django.", "children": [
                   {"name": "FastAPI Example", "url": "https://tortoise.github.io/examples/fastapi.html", "desc": "An example of the Tortoise-ORM FastAPI integration."},
                   {"name": "Tutorial: Setting up Tortoise ORM with FastAPI", "url": "https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/"},
@@ -296,9 +296,9 @@
           "note": "(Platforms-as-a-Service)",
           "items": [
             {"name": "AWS Elastic Beanstalk", "url": "https://aws.amazon.com/elasticbeanstalk/"},
-            {"name": "Fly", "url": "https://fly.io", "desc": "([tutorial](https://fly.io/docs/python/frameworks/fastapi/), [Deploy from a Git repo](https://github.com/fly-apps/hello-fastapi))"},
+            {"name": "Fly", "url": "https://fly.io", "desc": "([tutorial](https://fly.io/docs/python/frameworks/fastapi/), [Deploy from a Git repo](https://github.com/fly-apps/hello-fastapi))", "no_dash": true},
             {"name": "Google App Engine", "url": "https://cloud.google.com/appengine"},
-            {"name": "Heroku", "url": "https://www.heroku.com/", "desc": "([Step-by-step tutorial](https://tutlinks.com/create-and-deploy-fastapi-app-to-heroku/), [ML model on Heroku tutorial](https://testdriven.io/blog/fastapi-machine-learning/))"},
+            {"name": "Heroku", "url": "https://www.heroku.com/", "desc": "([Step-by-step tutorial](https://tutlinks.com/create-and-deploy-fastapi-app-to-heroku/), [ML model on Heroku tutorial](https://testdriven.io/blog/fastapi-machine-learning/))", "no_dash": true},
             {"name": "Microsoft Azure App Service", "url": "https://azure.microsoft.com/en-us/products/app-service/"}
           ]
         },
@@ -328,10 +328,10 @@
             {
               "label": "Compute:",
               "items": [
-                {"name": "AWS Lambda", "url": "https://aws.amazon.com/lambda/", "desc": "([example](https://github.com/iwpnd/fastapi-aws-lambda-example))"},
+                {"name": "AWS Lambda", "url": "https://aws.amazon.com/lambda/", "desc": "([example](https://github.com/iwpnd/fastapi-aws-lambda-example))", "no_dash": true},
                 {"name": "Azure Functions", "url": "https://azure.microsoft.com/en-us/products/functions/"},
                 {"name": "Google Cloud Functions", "url": "https://cloud.google.com/functions"},
-                {"name": "Google Cloud Run", "url": "https://cloud.google.com/run", "desc": "([example](https://github.com/anthonycorletti/cloudrun-fastapi))"}
+                {"name": "Google Cloud Run", "url": "https://cloud.google.com/run", "desc": "([example](https://github.com/anthonycorletti/cloudrun-fastapi))", "no_dash": true}
               ]
             }
           ]
@@ -396,7 +396,7 @@
             {"name": "FastAPI with Celery, RabbitMQ, and Redis", "url": "https://github.com/GregaVrbancic/fastapi-celery", "desc": "Minimal example utilizing FastAPI and Celery with RabbitMQ for task queue, Redis for Celery backend, and Flower for monitoring the Celery tasks."},
             {"name": "FuturamaAPI", "url": "https://github.com/koldakov/futuramaapi", "desc": "A REST and GraphQL playground built with best practices, providing WebSockets, SSE, callbacks, secret messages, and more."},
             {"name": "JeffQL", "url": "https://github.com/yezz123/JeffQL/", "desc": "Simple authentication and login API using GraphQL and JWT."},
-            {"name": "JSON-RPC Server", "url": "https://github.com/smagafurov/fastapi-jsonrpc", "desc": "JSON-RPC server based on FastAPI."},
+            {"name": "JSON-RPC Server", "url": "https://github.com/smagafurov/fastapi-jsonrpc", "desc": "Implementation of a JSON-RPC server built with FastAPI."},
             {"name": "Mailer", "url": "https://github.com/rclement/mailer", "desc": "Dead-simple mailer micro-service for static websites."},
             {"name": "Markdown-Videos", "url": "https://github.com/Snailedlt/Markdown-Videos", "desc": "API for generating thumbnails to embed into your markdown content."},
             {"name": "Nemo", "url": "https://github.com/harshitsinghai77/nemo-backend", "desc": "Be productive with Nemo."},
